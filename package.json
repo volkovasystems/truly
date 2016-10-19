@@ -1,0 +1,26 @@
+{
+  "name": "truly",
+  "version": "0.0.0",
+  "description": "Check if the value is not undefined, null, empty string, NaN and Infinity.",
+  "main": "truly.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/truly.git"
+  },
+  "keywords": [
+    "value",
+    "truthy",
+    "true",
+    "truth",
+    "truly"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/truly/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/truly#readme"
+}
