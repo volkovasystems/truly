@@ -47,14 +47,19 @@
 */
 
 var truly = function truly( value ){
-	if( typeof value == "number" ){
-		return !isNaN( value ) && isFinite( value );
+	/*;
+		@meta-configuration:
+			{
+				"value:required": "*"
+			}
+		@end-meta-configuration
+	*/
 
-	}else{
-		return ( typeof value != "undefined" &&
-			value !== null &&
-			value !== "" );
+	if( typeof value == "number" ){
+		return ( !isNaN( value ) && isFinite( value ) );
 	}
+
+	return ( typeof value != "undefined" && value !== null && value !== "" );
 };
 
 if( typeof module != "undefined" ){
