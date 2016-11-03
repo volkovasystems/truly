@@ -46,7 +46,7 @@
 	@end-module-documentation
 */
 
-var truly = function truly( value ){
+this.truly = function truly( value ){
 	/*;
 		@meta-configuration:
 			{
@@ -62,6 +62,8 @@ var truly = function truly( value ){
 	return ( typeof value != "undefined" && value !== null && value !== "" );
 };
 
-if( typeof module != "undefined" ){
-	module.exports = truly;
+if( typeof module != "undefined" &&
+	typeof module.exports != "undefined" )
+{
+	module.exports = this.truly;
 }
