@@ -44,7 +44,21 @@
 	@module-documentation:
 		Check if the value is not undefined, null, empty string, NaN and Infinity.
 	@end-module-documentation
+
+	@include:
+		{
+			"protype": "protype"
+		}
+	@end-include
 */
+
+if( typeof require == "function" ){
+	var protype = require( "protype" );
+}
+
+if( typeof window != "undefined" && !( "protype" in window ) ){
+	throw new Error( "protype not defined" );
+}
 
 this.truly = function truly( value ){
 	/*;
@@ -55,15 +69,14 @@ this.truly = function truly( value ){
 		@end-meta-configuration
 	*/
 
-	if( typeof value == "number" ){
+	let valueType = protype( value );
+	if( valueType.NUMBER ){
 		return ( !isNaN( value ) && isFinite( value ) );
 	}
 
-	return ( typeof value != "undefined" && value !== null && value !== "" );
+	return ( !valueType.UNDEFINED && value !== null && value !== "" );
 };
 
-if( typeof module != "undefined" &&
-	typeof module.exports != "undefined" )
-{
+if( typeof module != "undefined" && typeof module.exports != "undefined" ){
 	module.exports = this.truly;
 }
