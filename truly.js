@@ -60,7 +60,7 @@ if( typeof window != "undefined" && !( "protype" in window ) ){
 	throw new Error( "protype not defined" );
 }
 
-this.truly = function truly( value ){
+var truly = function truly( value ){
 	/*;
 		@meta-configuration:
 			{
@@ -78,5 +78,5 @@ this.truly = function truly( value ){
 };
 
 if( typeof module != "undefined" && typeof module.exports != "undefined" ){
-	module.exports = this.truly;
+	module.exports = truly;
 }
