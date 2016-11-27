@@ -52,15 +52,9 @@
 	@end-include
 */
 
-if( typeof require == "function" ){
-	var protype = require( "protype" );
-}
+const protype = require( "protype" );
 
-if( typeof window != "undefined" && !( "protype" in window ) ){
-	throw new Error( "protype not defined" );
-}
-
-var truly = function truly( value ){
+const truly = function truly( value ){
 	/*;
 		@meta-configuration:
 			{
@@ -77,6 +71,4 @@ var truly = function truly( value ){
 	return ( !valueType.UNDEFINED && value !== null && value !== "" );
 };
 
-if( typeof module != "undefined" && typeof module.exports != "undefined" ){
-	module.exports = truly;
-}
+module.exports = truly;

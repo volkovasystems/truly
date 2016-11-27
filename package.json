@@ -1,6 +1,6 @@
 {
   "name": "truly",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Check if the value is not undefined, null, empty string, NaN and Infinity.",
   "main": "truly.js",
   "scripts": {
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/volkovasystems/truly#readme",
   "dependencies": {
-    "protype": "^0.2.0"
+    "protype": "^0.4.0"
   }
 }
