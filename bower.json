@@ -1,6 +1,6 @@
 {
   "name": "truly",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Check if the value is not undefined, null, empty string, NaN and Infinity.",
   "main": "truly.js",
   "support": "truly.support.js",
@@ -26,6 +26,6 @@
     "tests"
   ],
   "dependencies": {
-    "protype": "^0.9.0"
+    "protype": "^0.10.0"
   }
 }
