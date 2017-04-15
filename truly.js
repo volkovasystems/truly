@@ -48,14 +48,10 @@
 		Check if the value is not undefined, null, empty string, NaN and Infinity.
 	@end-module-documentation
 
-	@include:
-		{
-			"protype": "protype"
-		}
-	@end-include
+	@note:
+		This module should not have a dependency and should remain as simple as possible.
+	@end-note
 */
-
-const protype = require( "protype" );
 
 const truly = function truly( value ){
 	/*;
@@ -66,11 +62,11 @@ const truly = function truly( value ){
 		@end-meta-configuration
 	*/
 
-	if( protype( value, NUMBER ) ){
-		return ( !isNaN( value ) && isFinite( value ) );
+	if( typeof value == "number" ){
+		return !isNaN( value );
 	}
 
-	return ( !protype( value, UNDEFINED ) && value !== null && value !== "" );
+	return ( typeof value != "undefined" && value !== null && value !== "" );
 };
 
 module.exports = truly;
