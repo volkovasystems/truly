@@ -4,6 +4,7 @@ const truly = require( "./truly.js" );
 
 assert.equal( truly( "hello" ), true, "should be true" );
 assert.equal( truly( { } ), true, "should be true" );
+assert.equal( truly( [ ] ), true, "should be true" );
 assert.equal( truly( function( ){ } ), true, "should be true" );
 assert.equal( truly( 123 ), true, "should be true" );
 assert.equal( truly( true ), true, "should be true" );
