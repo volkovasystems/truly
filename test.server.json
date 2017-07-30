@@ -1,17 +1,228 @@
-ok
 {
   "stats": {
-    "suites": 0,
-    "tests": 0,
-    "passes": 0,
+    "suites": 16,
+    "tests": 15,
+    "passes": 15,
     "pending": 0,
     "failures": 0,
-    "start": "2017-07-29T20:38:24.733Z",
-    "end": "2017-07-29T20:38:24.734Z",
-    "duration": 1
+    "start": "2017-07-30T09:09:57.730Z",
+    "end": "2017-07-30T09:09:57.737Z",
+    "duration": 7
   },
-  "tests": [],
+  "tests": [
+    {
+      "title": "should be true",
+      "fullTitle": "truly `truly( hello )` should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly `truly( { } )` should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( [ ] ) should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( function( ){ } should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( 123 ) should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( true ) should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( true ) should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( Infinity ) should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( 0 ) should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be false",
+      "fullTitle": "truly truly( undefined ) should be false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be false",
+      "fullTitle": "truly truly( ) should be false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be false",
+      "fullTitle": "truly truly( null ) should be false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be false",
+      "fullTitle": "truly truly( NaN ) should be false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be false",
+      "fullTitle": "truly truly( 0/0 ) should be false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be false",
+      "fullTitle": "truly truly( '' ) should be false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
   "pending": [],
   "failures": [],
-  "passes": []
+  "passes": [
+    {
+      "title": "should be true",
+      "fullTitle": "truly `truly( hello )` should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly `truly( { } )` should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( [ ] ) should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( function( ){ } should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( 123 ) should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( true ) should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( true ) should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( Infinity ) should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be true",
+      "fullTitle": "truly truly( 0 ) should be true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be false",
+      "fullTitle": "truly truly( undefined ) should be false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be false",
+      "fullTitle": "truly truly( ) should be false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be false",
+      "fullTitle": "truly truly( null ) should be false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be false",
+      "fullTitle": "truly truly( NaN ) should be false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be false",
+      "fullTitle": "truly truly( 0/0 ) should be false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be false",
+      "fullTitle": "truly truly( '' ) should be false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
 }
