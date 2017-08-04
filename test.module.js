@@ -71,9 +71,9 @@ const path = require( "path" );
 
 //: @server:
 describe( "truly", ( ) => {
-	
+
 	describe( "`truly( hello )`", ( ) => {
-		it( "should be true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( "hello" ), true );
 
@@ -81,7 +81,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "`truly( { } )`", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( { } ), true );
 
@@ -89,7 +89,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( [ ] )", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( [ ] ), true );
 
@@ -97,7 +97,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( function( ){ }", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( function( ){ } ), true );
 
@@ -105,7 +105,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( 123 )", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( 123 ), true );
 
@@ -113,7 +113,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( true )", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( true ), true);
 
@@ -121,7 +121,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( true )", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( true ), true);
 
@@ -129,7 +129,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( Infinity )", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( Infinity ), true );
 
@@ -137,7 +137,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( 0 )", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( 0 ), true );
 
@@ -145,7 +145,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( undefined )", ( ) => {
-	it( "should be false", ( ) => {
+	it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( undefined ), false );
 
@@ -153,7 +153,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( )", ( ) => {
-	it( "should be false", ( ) => {
+	it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( ), false );
 
@@ -161,7 +161,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( null )", ( ) => {
-	it( "should be false", ( ) => {
+	it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( null ), false );
 
@@ -169,7 +169,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( NaN )", ( ) => {
-	it( "should be false", ( ) => {
+	it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( NaN ), false);
 
@@ -177,7 +177,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( 0/0 )", ( ) => {
-	it( "should be false", ( ) => {
+	it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( 0/0 ), false );
 
@@ -185,7 +185,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( '' )", ( ) => {
-	it( "should be false", ( ) => {
+	it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( "" ), false );
 
@@ -200,11 +200,11 @@ describe( "truly", ( ) => {
 //: @end-server
 
 
-//: @client: 
+//: @client:
 describe( "truly", ( ) => {
-	
+
 	describe( "`truly( hello )`", ( ) => {
-		it( "should be true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( "hello" ), true );
 
@@ -212,7 +212,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "`truly( { } )`", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( { } ), true );
 
@@ -220,7 +220,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( [ ] )", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( [ ] ), true );
 
@@ -228,7 +228,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( function( ){ }", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( function( ){ } ), true );
 
@@ -236,7 +236,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( 123 )", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( 123 ), true );
 
@@ -244,7 +244,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( true )", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( true ), true);
 
@@ -252,7 +252,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( true )", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( true ), true);
 
@@ -260,7 +260,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( Infinity )", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( Infinity ), true );
 
@@ -268,7 +268,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( 0 )", ( ) => {
-	it( "should be true", ( ) => {
+	it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( 0 ), true );
 
@@ -276,7 +276,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( undefined )", ( ) => {
-	it( "should be false", ( ) => {
+	it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( undefined ), false );
 
@@ -284,7 +284,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( )", ( ) => {
-	it( "should be false", ( ) => {
+	it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( ), false );
 
@@ -292,7 +292,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( null )", ( ) => {
-	it( "should be false", ( ) => {
+	it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( null ), false );
 
@@ -300,7 +300,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( NaN )", ( ) => {
-	it( "should be false", ( ) => {
+	it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( NaN ), false);
 
@@ -308,7 +308,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( 0/0 )", ( ) => {
-	it( "should be false", ( ) => {
+	it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( 0/0 ), false );
 
@@ -316,7 +316,7 @@ describe( "truly", ( ) => {
 	} );
 
 	describe( "truly( '' )", ( ) => {
-	it( "should be false", ( ) => {
+	it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( "" ), false );
 
@@ -333,170 +333,245 @@ describe( "truly", ( ) => {
 
 describe( "truly", ( ) => {
 
-	
-	let directory = __dirname;
-	let testBridge = path.resolve( directory, "bridge.html" );
-	let bridgeURL = `file://${ testBridge }`;
+	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
 
-	describe( "`truly( hello )`", ( ) => {
-		it( "should be true", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );
-			assert.equal( result.value, true );
+	describe( `"truly( "hello" )"`, ( ) => {
+		it( "should be equal to true", ( ) => {
 
-		} );
-	} );
+			let result = browser.url( bridgeURL ).execute(
 
-	describe( "`truly( { } )`", ( ) => {
-	it( "should be true", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );
-			assert.equal( result.value, true );
+				function( ){
+					return truly( "hello" );
+				}
 
-		} );
-	} );
+			).value;
 
-	describe( "truly( [ ] )", ( ) => {
-	it( "should be true", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );
-			assert.equal( result.value, true );
-
-		} );
-	} );
-
-	describe( "truly( function( ){ }", ( ) => {
-	it( "should be true", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );
-			assert.equal( result.value, true );
-
-		} );
-	} );
-
-	describe( "truly( 123 )", ( ) => {
-	it( "should be true", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );
-			assert.equal( result.value, true );
-
-		} );
-	} );
-
-	describe( "truly( true )", ( ) => {
-	it( "should be true", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );
-			assert.equal( result.value, true);
-
-		} );
-	} );
-
-	describe( "truly( true )", ( ) => {
-	it( "should be true", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );
-			assert.equal( result.value, true);
-
-		} );
-	} );
-
-	describe( "truly( Infinity )", ( ) => {
-	it( "should be true", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );
-			assert.equal( result.value, true );
-
-		} );
-	} );
-
-	describe( "truly( 0 )", ( ) => {
-	it( "should be true", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );
-			assert.equal( result.value, true );
-
-		} );
-	} );
-
-	describe( "truly( undefined )", ( ) => {
-	it( "should be false", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );		
-			assert.equal( result.value, false );
-
-		} );
-	} );
-
-	describe( "truly( )", ( ) => {
-	it( "should be false", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );		
-			assert.equal( result.value, false );
-
-		} );
-	} );
-
-	describe( "truly( null )", ( ) => {
-	it( "should be false", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );
-			assert.equal( result.value, false );
-
-		} );
-	} );
-
-	describe( "truly( NaN )", ( ) => {
-	it( "should be false", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );
-			assert.equal( result.value, false);
-
-		} );
-	} );
-
-	describe( "truly( 0/0 )", ( ) => {
-	it( "should be false", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );
-			assert.equal( result.value, false );
-
-		} );
-	} );
-
-	describe( "truly( '' )", ( ) => {
-	it( "should be false", ( ) => {
-			let result = browser.url( bridgeURL ).execute( ( ) => truly( ) );
-			assert.equal( result.value, false );
+			assert.equal( result, true );
 
 		} );
 	} );
 
 
+	describe( `"truly( { } )"`, ( ) => {
+		it( "should be equal to true", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return truly( { } );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+
+		} );
+	} );
+
+
+	describe( `"truly( [ ] )"`, ( ) => {
+		it( "should be equal to true", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return truly( [ ] );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+
+		} );
+	} );
+
+
+	describe( `"truly( function( ){ } )"`, ( ) => {
+		it( "should be equal to true", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return truly( function( ){ } );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+
+		} );
+	} );
+
+
+	describe( `"truly( 123 )"`, ( ) => {
+		it( "should be equal to true", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return truly( 123 );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+
+		} );
+	} );
+
+
+	describe( `"truly( true )"`, ( ) => {
+		it( "should be equal to true", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return truly( true );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+
+		} );
+	} );
+
+
+	describe( `"truly( Infinity )"`, ( ) => {
+		it( "should be equal to true", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return truly( Infinity );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+
+		} );
+	} );
+
+
+	describe( `"truly( 0 )"`, ( ) => {
+		it( "should be equal to true", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return truly( 0 );
+				}
+
+			).value;
+
+			assert.equal( result, true );
+
+		} );
+	} );
+
+
+	describe( `"truly( undefined )"`, ( ) => {
+		it( "should be equal to false", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return truly( undefined );
+				}
+
+			).value;
+
+			assert.equal( result, false );
+
+		} );
+	} );
+
+
+	describe( `"truly( )"`, ( ) => {
+		it( "should be equal to false", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return truly( );
+				}
+
+			).value;
+
+			assert.equal( result, false );
+
+		} );
+	} );
+
+
+	describe( `"truly( null )"`, ( ) => {
+		it( "should be equal to false", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return truly( null );
+				}
+
+			).value;
+
+			assert.equal( result, false );
+
+		} );
+	} );
+
+
+	describe( `"truly( NaN )"`, ( ) => {
+		it( "should be equal to false", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return truly( NaN );
+				}
+
+			).value;
+
+			assert.equal( result, false );
+
+		} );
+	} );
+
+
+	describe( `"truly( 0/0 )"`, ( ) => {
+		it( "should be equal to false", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return truly( 0/0 );
+				}
+
+			).value;
+
+			assert.equal( result, false );
+
+		} );
+	} );
+
+
+	describe( `"truly( "" )"`, ( ) => {
+		it( "should be equal to false", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return truly( "" );
+				}
+
+			).value;
+
+			assert.equal( result, false );
+
+		} );
+	} );
 
 } );
 
-
 //: @end-bridge
-
-
-// const assert = require( "assert" );
-// const truly = require( "./truly.js" );
-
-// assert.equal( truly( "hello" ), true, "should be true" );
-
-// assert.equal( truly( { } ), true, "should be true" );
-
-// assert.equal( truly( [ ] ), true, "should be true" );
-
-// assert.equal( truly( function( ){ } ), true, "should be true" );
-
-// assert.equal( truly( 123 ), true, "should be true" );
-
-// assert.equal( truly( true ), true, "should be true" );
-
-// assert.equal( truly( true ), true, "should be true" );
-
-// assert.equal( truly( Infinity ), true, "should be true" );
-
-// assert.equal( truly( 0 ), true, "should be true" );
-
-// assert.equal( truly( undefined ), false, "should be false" );
-
-// assert.equal( truly( ), false, "should be false" );
-
-// assert.equal( truly( null ), false, "should be false" );
-
-// assert.equal( truly( NaN ), false, "should be false" );
-
-// assert.equal( truly( 0/0 ), false, "should be false" );
-
-// assert.equal( truly( "" ), false, "should be false" );
-
-// console.log( "ok" );
