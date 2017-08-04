@@ -535,7 +535,7 @@ describe( "truly", ( ) => {
 	} );
 
 
-	describe( "`truly( "" )`", ( ) => {
+	describe( "`truly( '' )`", ( ) => {
 		it( "should be equal to false", ( ) => {
 
 			let result = browser.url( bridgeURL ).execute(
