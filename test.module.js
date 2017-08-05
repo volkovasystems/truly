@@ -72,7 +72,7 @@ const path = require( "path" );
 //: @server:
 describe( "truly", ( ) => {
 
-	describe( "`truly( hello )`", ( ) => {
+	describe( "`truly( 'hello' )`", ( ) => {
 		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( "hello" ), true );
@@ -80,110 +80,122 @@ describe( "truly", ( ) => {
 		} );
 	} );
 
+
 	describe( "`truly( { } )`", ( ) => {
-	it( "should be equal to true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( { } ), true );
 
 		} );
 	} );
 
+
 	describe( "`truly( [ ] )`", ( ) => {
-	it( "should be equal to true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( [ ] ), true );
 
 		} );
 	} );
 
-	describe( "`truly( function( ){ }`", ( ) => {
-	it( "should be equal to true", ( ) => {
+
+	describe( "`truly( function( ){ } )`", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( function( ){ } ), true );
 
 		} );
 	} );
 
+
 	describe( "`truly( 123 )`", ( ) => {
-	it( "should be equal to true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( 123 ), true );
 
 		} );
 	} );
 
+
 	describe( "`truly( true )`", ( ) => {
-	it( "should be equal to true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( true ), true);
 
 		} );
 	} );
 
+
 	describe( "`truly( Infinity )`", ( ) => {
-	it( "should be equal to true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( Infinity ), true );
 
 		} );
 	} );
 
+
 	describe( "`truly( 0 )`", ( ) => {
-	it( "should be equal to true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( 0 ), true );
 
 		} );
 	} );
 
+
 	describe( "`truly( undefined )`", ( ) => {
-	it( "should be equal to false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( undefined ), false );
 
 		} );
 	} );
 
+
 	describe( "`truly( )`", ( ) => {
-	it( "should be equal to false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( ), false );
 
 		} );
 	} );
 
+
 	describe( "`truly( null )`", ( ) => {
-	it( "should be equal to false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( null ), false );
 
 		} );
 	} );
 
+
 	describe( "`truly( NaN )`", ( ) => {
-	it( "should be equal to false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( NaN ), false);
 
 		} );
 	} );
 
+
 	describe( "`truly( 0/0 )`", ( ) => {
-	it( "should be equal to false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( 0/0 ), false );
 
 		} );
 	} );
 
+
 	describe( "`truly( '' )`", ( ) => {
-	it( "should be equal to false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( "" ), false );
 
 		} );
 	} );
-
 } );
 
 //: @end-server
@@ -191,7 +203,7 @@ describe( "truly", ( ) => {
 //: @client:
 describe( "truly", ( ) => {
 
-	describe( "`truly( hello )`", ( ) => {
+	describe( "`truly( 'hello' )`", ( ) => {
 		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( "hello" ), true );
@@ -199,110 +211,122 @@ describe( "truly", ( ) => {
 		} );
 	} );
 
+
 	describe( "`truly( { } )`", ( ) => {
-	it( "should be equal to true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( { } ), true );
 
 		} );
 	} );
 
+
 	describe( "`truly( [ ] )`", ( ) => {
-	it( "should be equal to true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( [ ] ), true );
 
 		} );
 	} );
 
-	describe( "`truly( function( ){ }`", ( ) => {
-	it( "should be equal to true", ( ) => {
+
+	describe( "`truly( function( ){ } )`", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( function( ){ } ), true );
 
 		} );
 	} );
 
+
 	describe( "`truly( 123 )`", ( ) => {
-	it( "should be equal to true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( 123 ), true );
 
 		} );
 	} );
 
+
 	describe( "`truly( true )`", ( ) => {
-	it( "should be equal to true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( true ), true);
 
 		} );
 	} );
 
+
 	describe( "`truly( Infinity )`", ( ) => {
-	it( "should be equal to true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( Infinity ), true );
 
 		} );
 	} );
 
+
 	describe( "`truly( 0 )`", ( ) => {
-	it( "should be equal to true", ( ) => {
+		it( "should be equal to true", ( ) => {
 
 			assert.equal( truly( 0 ), true );
 
 		} );
 	} );
 
+
 	describe( "`truly( undefined )`", ( ) => {
-	it( "should be equal to false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( undefined ), false );
 
 		} );
 	} );
 
+
 	describe( "`truly( )`", ( ) => {
-	it( "should be equal to false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( ), false );
 
 		} );
 	} );
 
+
 	describe( "`truly( null )`", ( ) => {
-	it( "should be equal to false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( null ), false );
 
 		} );
 	} );
 
+
 	describe( "`truly( NaN )`", ( ) => {
-	it( "should be equal to false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( NaN ), false);
 
 		} );
 	} );
 
+
 	describe( "`truly( 0/0 )`", ( ) => {
-	it( "should be equal to false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( 0/0 ), false );
 
 		} );
 	} );
 
+
 	describe( "`truly( '' )`", ( ) => {
-	it( "should be equal to false", ( ) => {
+		it( "should be equal to false", ( ) => {
 
 			assert.equal( truly( "" ), false );
 
 		} );
 	} );
-
 } );
 
 //: @end-client
