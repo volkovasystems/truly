@@ -1,7 +1,7 @@
 {
 	"name": "truly",
-	"version": "0.20.0",
-	"description": "Check if the value is not undefined, null, empty string, NaN and Infinity.",
+	"version": "0.21.0",
+	"description": "Check if the value is not undefined, null, empty string and NaN.",
 	"main": "truly.deploy.js",
 	"support": "truly.support.js",
 	"authors": [

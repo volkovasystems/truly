@@ -5,8 +5,8 @@
 		"passes": 14,
 		"pending": 0,
 		"failures": 0,
-		"start": "2017-08-05T14:54:29.981Z",
-		"end": "2017-08-05T14:54:29.986Z",
+		"start": "2017-08-05T15:42:40.117Z",
+		"end": "2017-08-05T15:42:40.122Z",
 		"duration": 5
 	},
 	"tests": [
@@ -20,7 +20,7 @@
 		{
 			"title": "should be equal to true",
 			"fullTitle": "truly `truly( { } )` should be equal to true",
-			"duration": 1,
+			"duration": 0,
 			"currentRetry": 0,
 			"err": {}
 		},
@@ -90,7 +90,7 @@
 		{
 			"title": "should be equal to false",
 			"fullTitle": "truly `truly( NaN )` should be equal to false",
-			"duration": 1,
+			"duration": 0,
 			"currentRetry": 0,
 			"err": {}
 		},
@@ -122,7 +122,7 @@
 		{
 			"title": "should be equal to true",
 			"fullTitle": "truly `truly( { } )` should be equal to true",
-			"duration": 1,
+			"duration": 0,
 			"currentRetry": 0,
 			"err": {}
 		},
@@ -192,7 +192,7 @@
 		{
 			"title": "should be equal to false",
 			"fullTitle": "truly `truly( NaN )` should be equal to false",
-			"duration": 1,
+			"duration": 0,
 			"currentRetry": 0,
 			"err": {}
 		},

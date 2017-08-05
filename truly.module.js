@@ -40,13 +40,13 @@
 				"Vinse Vinalon <vinsevinalon@gmail.com>"
 			],
 			"repository": "https://github.com/volkovasystems/truly.git",
-			"test": "truly-test.js",
+			"test": "test.module.js",
 			"global": true
 		}
 	@end-module-configuration
 
 	@module-documentation:
-		Check if the value is not undefined, null, empty string, NaN and Infinity.
+		Check if the value is not undefined, null, empty string and NaN.
 	@end-module-documentation
 
 	@note:

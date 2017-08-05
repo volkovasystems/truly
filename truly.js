@@ -46,7 +46,7 @@
 	@end-module-configuration
 
 	@module-documentation:
-		Check if the value is not undefined, null, empty string, NaN and Infinity.
+		Check if the value is not undefined, null, empty string and NaN.
 	@end-module-documentation
 
 	@note:
