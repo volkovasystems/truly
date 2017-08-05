@@ -1,5 +1,5 @@
 # truly
-Check if the value is not undefined, null, empty string, NaN and Infinity.
+Check if the value is not undefined, null, empty string, and NaN.
 
 ### Note
 >The following global dependencies should be installed to speed up development procedures.
