@@ -4,8 +4,8 @@
 		"failed": 0,
 		"skipped": 0
 	},
-	"start": "2017-08-06T05:20:23.157Z",
-	"end": "2017-08-06T05:20:45.092Z",
+	"start": "2017-08-06T05:37:21.164Z",
+	"end": "2017-08-06T05:37:41.016Z",
 	"capabilities": {
 		"browserName": "chrome",
 		"chromeOptions": {
@@ -28,244 +28,244 @@
 		{
 			"name": "truly",
 			"duration": 0,
-			"start": "2017-08-06T05:20:44.215Z",
+			"start": "2017-08-06T05:37:39.976Z",
 			"tests": [],
 			"hooks": []
 		},
 		{
 			"name": "truly",
-			"duration": 695,
-			"start": "2017-08-06T05:20:44.215Z",
-			"end": "2017-08-06T05:20:44.910Z",
+			"duration": 859,
+			"start": "2017-08-06T05:37:39.977Z",
+			"end": "2017-08-06T05:37:40.836Z",
 			"tests": [],
 			"hooks": [
 				{
-					"start": "2017-08-06T05:20:44.217Z",
-					"end": "2017-08-06T05:20:44.217Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to true"
-				},
-				{
-					"start": "2017-08-06T05:20:44.290Z",
-					"end": "2017-08-06T05:20:44.290Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to true"
-				},
-				{
-					"start": "2017-08-06T05:20:44.292Z",
-					"end": "2017-08-06T05:20:44.292Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to true"
-				},
-				{
-					"start": "2017-08-06T05:20:44.335Z",
-					"end": "2017-08-06T05:20:44.335Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to true"
-				},
-				{
-					"start": "2017-08-06T05:20:44.335Z",
-					"end": "2017-08-06T05:20:44.335Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to true"
-				},
-				{
-					"start": "2017-08-06T05:20:44.370Z",
-					"end": "2017-08-06T05:20:44.370Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to true"
-				},
-				{
-					"start": "2017-08-06T05:20:44.371Z",
-					"end": "2017-08-06T05:20:44.371Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to true"
-				},
-				{
-					"start": "2017-08-06T05:20:44.417Z",
-					"end": "2017-08-06T05:20:44.417Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to true"
-				},
-				{
-					"start": "2017-08-06T05:20:44.419Z",
-					"end": "2017-08-06T05:20:44.419Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to true"
-				},
-				{
-					"start": "2017-08-06T05:20:44.464Z",
-					"end": "2017-08-06T05:20:44.465Z",
-					"duration": 1,
-					"title": "\"after each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to true"
-				},
-				{
-					"start": "2017-08-06T05:20:44.473Z",
-					"end": "2017-08-06T05:20:44.474Z",
+					"start": "2017-08-06T05:37:39.979Z",
+					"end": "2017-08-06T05:37:39.980Z",
 					"duration": 1,
 					"title": "\"before each\" hook",
 					"associatedSuite": "truly",
 					"associatedTest": "should be equal to true"
 				},
 				{
-					"start": "2017-08-06T05:20:44.545Z",
-					"end": "2017-08-06T05:20:44.545Z",
+					"start": "2017-08-06T05:37:40.112Z",
+					"end": "2017-08-06T05:37:40.112Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "truly",
 					"associatedTest": "should be equal to true"
 				},
 				{
-					"start": "2017-08-06T05:20:44.547Z",
-					"end": "2017-08-06T05:20:44.547Z",
+					"start": "2017-08-06T05:37:40.121Z",
+					"end": "2017-08-06T05:37:40.121Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "truly",
 					"associatedTest": "should be equal to true"
 				},
 				{
-					"start": "2017-08-06T05:20:44.587Z",
-					"end": "2017-08-06T05:20:44.588Z",
+					"start": "2017-08-06T05:37:40.193Z",
+					"end": "2017-08-06T05:37:40.194Z",
 					"duration": 1,
 					"title": "\"after each\" hook",
 					"associatedSuite": "truly",
 					"associatedTest": "should be equal to true"
 				},
 				{
-					"start": "2017-08-06T05:20:44.592Z",
-					"end": "2017-08-06T05:20:44.596Z",
-					"duration": 4,
+					"start": "2017-08-06T05:37:40.194Z",
+					"end": "2017-08-06T05:37:40.194Z",
+					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "truly",
 					"associatedTest": "should be equal to true"
 				},
 				{
-					"start": "2017-08-06T05:20:44.650Z",
-					"end": "2017-08-06T05:20:44.651Z",
+					"start": "2017-08-06T05:37:40.253Z",
+					"end": "2017-08-06T05:37:40.253Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to true"
+				},
+				{
+					"start": "2017-08-06T05:37:40.254Z",
+					"end": "2017-08-06T05:37:40.254Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to true"
+				},
+				{
+					"start": "2017-08-06T05:37:40.309Z",
+					"end": "2017-08-06T05:37:40.310Z",
 					"duration": 1,
 					"title": "\"after each\" hook",
 					"associatedSuite": "truly",
 					"associatedTest": "should be equal to true"
 				},
 				{
-					"start": "2017-08-06T05:20:44.654Z",
-					"end": "2017-08-06T05:20:44.655Z",
+					"start": "2017-08-06T05:37:40.310Z",
+					"end": "2017-08-06T05:37:40.310Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to true"
+				},
+				{
+					"start": "2017-08-06T05:37:40.363Z",
+					"end": "2017-08-06T05:37:40.364Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to true"
+				},
+				{
+					"start": "2017-08-06T05:37:40.364Z",
+					"end": "2017-08-06T05:37:40.364Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to true"
+				},
+				{
+					"start": "2017-08-06T05:37:40.421Z",
+					"end": "2017-08-06T05:37:40.422Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to true"
+				},
+				{
+					"start": "2017-08-06T05:37:40.425Z",
+					"end": "2017-08-06T05:37:40.425Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to true"
+				},
+				{
+					"start": "2017-08-06T05:37:40.467Z",
+					"end": "2017-08-06T05:37:40.468Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to true"
+				},
+				{
+					"start": "2017-08-06T05:37:40.469Z",
+					"end": "2017-08-06T05:37:40.470Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to true"
+				},
+				{
+					"start": "2017-08-06T05:37:40.526Z",
+					"end": "2017-08-06T05:37:40.526Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to true"
+				},
+				{
+					"start": "2017-08-06T05:37:40.526Z",
+					"end": "2017-08-06T05:37:40.526Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to false"
+				},
+				{
+					"start": "2017-08-06T05:37:40.609Z",
+					"end": "2017-08-06T05:37:40.609Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to false"
+				},
+				{
+					"start": "2017-08-06T05:37:40.610Z",
+					"end": "2017-08-06T05:37:40.610Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to false"
+				},
+				{
+					"start": "2017-08-06T05:37:40.675Z",
+					"end": "2017-08-06T05:37:40.675Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to false"
+				},
+				{
+					"start": "2017-08-06T05:37:40.677Z",
+					"end": "2017-08-06T05:37:40.677Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to false"
+				},
+				{
+					"start": "2017-08-06T05:37:40.728Z",
+					"end": "2017-08-06T05:37:40.728Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to false"
+				},
+				{
+					"start": "2017-08-06T05:37:40.728Z",
+					"end": "2017-08-06T05:37:40.728Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to false"
+				},
+				{
+					"start": "2017-08-06T05:37:40.766Z",
+					"end": "2017-08-06T05:37:40.766Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to false"
+				},
+				{
+					"start": "2017-08-06T05:37:40.766Z",
+					"end": "2017-08-06T05:37:40.766Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to false"
+				},
+				{
+					"start": "2017-08-06T05:37:40.802Z",
+					"end": "2017-08-06T05:37:40.802Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "truly",
+					"associatedTest": "should be equal to false"
+				},
+				{
+					"start": "2017-08-06T05:37:40.804Z",
+					"end": "2017-08-06T05:37:40.805Z",
 					"duration": 1,
 					"title": "\"before each\" hook",
 					"associatedSuite": "truly",
 					"associatedTest": "should be equal to false"
 				},
 				{
-					"start": "2017-08-06T05:20:44.709Z",
-					"end": "2017-08-06T05:20:44.709Z",
+					"start": "2017-08-06T05:37:40.835Z",
+					"end": "2017-08-06T05:37:40.835Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "truly",
 					"associatedTest": "should be equal to false"
 				},
 				{
-					"start": "2017-08-06T05:20:44.710Z",
-					"end": "2017-08-06T05:20:44.710Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to false"
-				},
-				{
-					"start": "2017-08-06T05:20:44.742Z",
-					"end": "2017-08-06T05:20:44.742Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to false"
-				},
-				{
-					"start": "2017-08-06T05:20:44.742Z",
-					"end": "2017-08-06T05:20:44.742Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to false"
-				},
-				{
-					"start": "2017-08-06T05:20:44.778Z",
-					"end": "2017-08-06T05:20:44.778Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to false"
-				},
-				{
-					"start": "2017-08-06T05:20:44.778Z",
-					"end": "2017-08-06T05:20:44.778Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to false"
-				},
-				{
-					"start": "2017-08-06T05:20:44.824Z",
-					"end": "2017-08-06T05:20:44.824Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to false"
-				},
-				{
-					"start": "2017-08-06T05:20:44.825Z",
-					"end": "2017-08-06T05:20:44.825Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to false"
-				},
-				{
-					"start": "2017-08-06T05:20:44.869Z",
-					"end": "2017-08-06T05:20:44.869Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to false"
-				},
-				{
-					"start": "2017-08-06T05:20:44.870Z",
-					"end": "2017-08-06T05:20:44.870Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to false"
-				},
-				{
-					"start": "2017-08-06T05:20:44.909Z",
-					"end": "2017-08-06T05:20:44.909Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "truly",
-					"associatedTest": "should be equal to false"
-				},
-				{
-					"start": "2017-08-06T05:20:44.910Z",
-					"end": "2017-08-06T05:20:44.910Z",
+					"start": "2017-08-06T05:37:40.836Z",
+					"end": "2017-08-06T05:37:40.836Z",
 					"duration": 0,
 					"title": "\"after all\" hook",
 					"associatedSuite": "truly"
@@ -274,15 +274,15 @@
 		},
 		{
 			"name": "`truly( 'hello' )`",
-			"duration": 75,
-			"start": "2017-08-06T05:20:44.216Z",
-			"end": "2017-08-06T05:20:44.291Z",
+			"duration": 141,
+			"start": "2017-08-06T05:37:39.978Z",
+			"end": "2017-08-06T05:37:40.119Z",
 			"tests": [
 				{
 					"name": "should be equal to true",
-					"start": "2017-08-06T05:20:44.216Z",
-					"end": "2017-08-06T05:20:44.289Z",
-					"duration": 73,
+					"start": "2017-08-06T05:37:39.979Z",
+					"end": "2017-08-06T05:37:40.112Z",
+					"duration": 133,
 					"state": "pass"
 				}
 			],
@@ -290,15 +290,15 @@
 		},
 		{
 			"name": "`truly( { } )`",
-			"duration": 44,
-			"start": "2017-08-06T05:20:44.291Z",
-			"end": "2017-08-06T05:20:44.335Z",
+			"duration": 75,
+			"start": "2017-08-06T05:37:40.119Z",
+			"end": "2017-08-06T05:37:40.194Z",
 			"tests": [
 				{
 					"name": "should be equal to true",
-					"start": "2017-08-06T05:20:44.291Z",
-					"end": "2017-08-06T05:20:44.335Z",
-					"duration": 44,
+					"start": "2017-08-06T05:37:40.120Z",
+					"end": "2017-08-06T05:37:40.193Z",
+					"duration": 73,
 					"state": "pass"
 				}
 			],
@@ -306,15 +306,15 @@
 		},
 		{
 			"name": "`truly( [ ] )`",
-			"duration": 35,
-			"start": "2017-08-06T05:20:44.335Z",
-			"end": "2017-08-06T05:20:44.370Z",
+			"duration": 60,
+			"start": "2017-08-06T05:37:40.194Z",
+			"end": "2017-08-06T05:37:40.254Z",
 			"tests": [
 				{
 					"name": "should be equal to true",
-					"start": "2017-08-06T05:20:44.335Z",
-					"end": "2017-08-06T05:20:44.370Z",
-					"duration": 35,
+					"start": "2017-08-06T05:37:40.194Z",
+					"end": "2017-08-06T05:37:40.253Z",
+					"duration": 59,
 					"state": "pass"
 				}
 			],
@@ -322,15 +322,15 @@
 		},
 		{
 			"name": "`truly( function( ){ } )`",
-			"duration": 48,
-			"start": "2017-08-06T05:20:44.370Z",
-			"end": "2017-08-06T05:20:44.418Z",
+			"duration": 56,
+			"start": "2017-08-06T05:37:40.254Z",
+			"end": "2017-08-06T05:37:40.310Z",
 			"tests": [
 				{
 					"name": "should be equal to true",
-					"start": "2017-08-06T05:20:44.371Z",
-					"end": "2017-08-06T05:20:44.417Z",
-					"duration": 46,
+					"start": "2017-08-06T05:37:40.254Z",
+					"end": "2017-08-06T05:37:40.309Z",
+					"duration": 55,
 					"state": "pass"
 				}
 			],
@@ -338,15 +338,15 @@
 		},
 		{
 			"name": "`truly( 123 )`",
-			"duration": 48,
-			"start": "2017-08-06T05:20:44.418Z",
-			"end": "2017-08-06T05:20:44.466Z",
+			"duration": 54,
+			"start": "2017-08-06T05:37:40.310Z",
+			"end": "2017-08-06T05:37:40.364Z",
 			"tests": [
 				{
 					"name": "should be equal to true",
-					"start": "2017-08-06T05:20:44.419Z",
-					"end": "2017-08-06T05:20:44.464Z",
-					"duration": 45,
+					"start": "2017-08-06T05:37:40.310Z",
+					"end": "2017-08-06T05:37:40.363Z",
+					"duration": 53,
 					"state": "pass"
 				}
 			],
@@ -354,62 +354,14 @@
 		},
 		{
 			"name": "`truly( true )`",
-			"duration": 80,
-			"start": "2017-08-06T05:20:44.466Z",
-			"end": "2017-08-06T05:20:44.546Z",
+			"duration": 58,
+			"start": "2017-08-06T05:37:40.364Z",
+			"end": "2017-08-06T05:37:40.422Z",
 			"tests": [
 				{
 					"name": "should be equal to true",
-					"start": "2017-08-06T05:20:44.466Z",
-					"end": "2017-08-06T05:20:44.538Z",
-					"duration": 72,
-					"state": "pass"
-				}
-			],
-			"hooks": []
-		},
-		{
-			"name": "`truly( Infinity )`",
-			"duration": 42,
-			"start": "2017-08-06T05:20:44.547Z",
-			"end": "2017-08-06T05:20:44.589Z",
-			"tests": [
-				{
-					"name": "should be equal to true",
-					"start": "2017-08-06T05:20:44.547Z",
-					"end": "2017-08-06T05:20:44.587Z",
-					"duration": 40,
-					"state": "pass"
-				}
-			],
-			"hooks": []
-		},
-		{
-			"name": "`truly( 0 )`",
-			"duration": 63,
-			"start": "2017-08-06T05:20:44.589Z",
-			"end": "2017-08-06T05:20:44.652Z",
-			"tests": [
-				{
-					"name": "should be equal to true",
-					"start": "2017-08-06T05:20:44.590Z",
-					"end": "2017-08-06T05:20:44.650Z",
-					"duration": 60,
-					"state": "pass"
-				}
-			],
-			"hooks": []
-		},
-		{
-			"name": "`truly( undefined )`",
-			"duration": 57,
-			"start": "2017-08-06T05:20:44.652Z",
-			"end": "2017-08-06T05:20:44.709Z",
-			"tests": [
-				{
-					"name": "should be equal to false",
-					"start": "2017-08-06T05:20:44.652Z",
-					"end": "2017-08-06T05:20:44.709Z",
+					"start": "2017-08-06T05:37:40.364Z",
+					"end": "2017-08-06T05:37:40.421Z",
 					"duration": 57,
 					"state": "pass"
 				}
@@ -417,16 +369,64 @@
 			"hooks": []
 		},
 		{
-			"name": "`truly( )`",
-			"duration": 33,
-			"start": "2017-08-06T05:20:44.709Z",
-			"end": "2017-08-06T05:20:44.742Z",
+			"name": "`truly( Infinity )`",
+			"duration": 45,
+			"start": "2017-08-06T05:37:40.423Z",
+			"end": "2017-08-06T05:37:40.468Z",
+			"tests": [
+				{
+					"name": "should be equal to true",
+					"start": "2017-08-06T05:37:40.424Z",
+					"end": "2017-08-06T05:37:40.467Z",
+					"duration": 43,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`truly( 0 )`",
+			"duration": 58,
+			"start": "2017-08-06T05:37:40.468Z",
+			"end": "2017-08-06T05:37:40.526Z",
+			"tests": [
+				{
+					"name": "should be equal to true",
+					"start": "2017-08-06T05:37:40.468Z",
+					"end": "2017-08-06T05:37:40.526Z",
+					"duration": 58,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`truly( undefined )`",
+			"duration": 83,
+			"start": "2017-08-06T05:37:40.526Z",
+			"end": "2017-08-06T05:37:40.609Z",
 			"tests": [
 				{
 					"name": "should be equal to false",
-					"start": "2017-08-06T05:20:44.709Z",
-					"end": "2017-08-06T05:20:44.742Z",
-					"duration": 33,
+					"start": "2017-08-06T05:37:40.526Z",
+					"end": "2017-08-06T05:37:40.609Z",
+					"duration": 83,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`truly( )`",
+			"duration": 66,
+			"start": "2017-08-06T05:37:40.610Z",
+			"end": "2017-08-06T05:37:40.676Z",
+			"tests": [
+				{
+					"name": "should be equal to false",
+					"start": "2017-08-06T05:37:40.610Z",
+					"end": "2017-08-06T05:37:40.675Z",
+					"duration": 65,
 					"state": "pass"
 				}
 			],
@@ -434,15 +434,15 @@
 		},
 		{
 			"name": "`truly( null )`",
-			"duration": 36,
-			"start": "2017-08-06T05:20:44.742Z",
-			"end": "2017-08-06T05:20:44.778Z",
+			"duration": 52,
+			"start": "2017-08-06T05:37:40.676Z",
+			"end": "2017-08-06T05:37:40.728Z",
 			"tests": [
 				{
 					"name": "should be equal to false",
-					"start": "2017-08-06T05:20:44.742Z",
-					"end": "2017-08-06T05:20:44.778Z",
-					"duration": 36,
+					"start": "2017-08-06T05:37:40.676Z",
+					"end": "2017-08-06T05:37:40.728Z",
+					"duration": 52,
 					"state": "pass"
 				}
 			],
@@ -450,15 +450,15 @@
 		},
 		{
 			"name": "`truly( NaN )`",
-			"duration": 46,
-			"start": "2017-08-06T05:20:44.778Z",
-			"end": "2017-08-06T05:20:44.824Z",
+			"duration": 38,
+			"start": "2017-08-06T05:37:40.728Z",
+			"end": "2017-08-06T05:37:40.766Z",
 			"tests": [
 				{
 					"name": "should be equal to false",
-					"start": "2017-08-06T05:20:44.778Z",
-					"end": "2017-08-06T05:20:44.823Z",
-					"duration": 45,
+					"start": "2017-08-06T05:37:40.728Z",
+					"end": "2017-08-06T05:37:40.766Z",
+					"duration": 38,
 					"state": "pass"
 				}
 			],
@@ -466,15 +466,15 @@
 		},
 		{
 			"name": "`truly( 0/0 )`",
-			"duration": 46,
-			"start": "2017-08-06T05:20:44.824Z",
-			"end": "2017-08-06T05:20:44.870Z",
+			"duration": 38,
+			"start": "2017-08-06T05:37:40.766Z",
+			"end": "2017-08-06T05:37:40.804Z",
 			"tests": [
 				{
 					"name": "should be equal to false",
-					"start": "2017-08-06T05:20:44.824Z",
-					"end": "2017-08-06T05:20:44.868Z",
-					"duration": 44,
+					"start": "2017-08-06T05:37:40.766Z",
+					"end": "2017-08-06T05:37:40.801Z",
+					"duration": 35,
 					"state": "pass"
 				}
 			],
@@ -482,15 +482,15 @@
 		},
 		{
 			"name": "`truly( '' )`",
-			"duration": 40,
-			"start": "2017-08-06T05:20:44.870Z",
-			"end": "2017-08-06T05:20:44.910Z",
+			"duration": 32,
+			"start": "2017-08-06T05:37:40.804Z",
+			"end": "2017-08-06T05:37:40.836Z",
 			"tests": [
 				{
 					"name": "should be equal to false",
-					"start": "2017-08-06T05:20:44.870Z",
-					"end": "2017-08-06T05:20:44.909Z",
-					"duration": 39,
+					"start": "2017-08-06T05:37:40.804Z",
+					"end": "2017-08-06T05:37:40.835Z",
+					"duration": 31,
 					"state": "pass"
 				}
 			],

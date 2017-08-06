@@ -11,6 +11,5 @@
 	],
 	"sourceMaps": "both",
 	"retainLines": true,
-	"comments": false,
 	"compact": true
 }
