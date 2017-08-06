@@ -40,7 +40,7 @@
 				"Vinse Vinalon <vinsevinalon@gmail.com>"
 			],
 			"repository": "https://github.com/volkovasystems/truly.git",
-			"test": "truly-test.js",
+			"test": "test.module.js",
 			"global": true
 		}
 	@end-module-configuration

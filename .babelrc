@@ -1,6 +1,16 @@
 {
-	"presets": "latest",
-	"plugins": [ "transform-runtime" ],
+	"presets": [
+		[
+			"env", {
+				"debug": true
+			}
+		]
+	],
+	"plugins": [
+		"transform-runtime"
+	],
 	"sourceMaps": "both",
-	"retainLines": true
+	"retainLines": true,
+	"comments": false,
+	"compact": true
 }
